@@ -66,7 +66,7 @@ class ConvertVideos:
     def __init__(self, video: str, resolution: str) -> None:
         self.video = video
         self.resolution = resolution
-        self.resolution_converter = None
+        self.resolution_converter: Resolution
 
     def convert_video(self) -> str:
         """convert_video
